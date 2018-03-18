@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 盈点点 基于mint-ui 的 vue 通用组件 
 
 > test
@@ -19,3 +20,7 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# frame
+Leo
+>>>>>>> b8ac5f3f537631599d7498ad49764b24c7435d67
