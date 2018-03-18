@@ -1,0 +1,107 @@
+
+$normalColor: #26a2ff;
+$big-large-font: 0.38rem;
+$large-font: 0.34rem;
+$mid-font: 0.3rem;
+$normal-font: 0.26rem;
+$small-font: 0.24rem;
+
+@mixin utils-ellipsis() {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+@mixin utils-ellipsis-n($n: 2) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $n;
+    overflow: hidden;
+}
+
+@mixin positionFull() {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@mixin tapSize($width: 100%, $height: 100%) {
+    width: $width;
+    height: $height;
+}
+
+$header-height: 0.9rem;
+
+$footer-height: 0.98rem;
+
+
+//swipe的下面小圆圈的大小
+$indicatorSize: 0.16rem;
+//swipe的下面小圆圈的未选中颜色
+$indicatorColor: #000;
+//swipe的下面小圆圈的选中颜色
+$indicatorActiveColor: #26a2ff;
+
+//footer icon大小
+$footer-icon-height: 0.42rem;
+$footer-icon-width: 0.42rem;
+$tab-item-font-size: 12px;
+
+
+//switch选中的颜色
+$switch-color: #f10;
+//switch圆圈颜色
+$switch-dir-color: #fff;
+
+
+//search  
+$search-bar:#fff;
+$search-inner:#EDEEEF;
+
+
+$color-blue: #26a2ff;
+$color-white: #fff;
+$color-grey: #d9d9d9;
+$border-color: #c8c8cd;
+$success-color: #4caf50;
+$error-color: #f44336;
+$warning-color: #ffc107;
+
+/* Cell Component */
+$cell-value-color: #888;
+
+/* Header Component */
+
+
+/* Button Component */
+$button-default-color: #656b79;
+$button-default-background-color: #f6f8fa;
+$button-default-plain-color: #5a5a5a;
+$button-default-box-shadow: 0 0 1px #b8bbbf;
+$button-primary-color: #fff;
+$button-primary-background-color: #26a2ff;
+$button-danger-color: #fff;
+$button-danger-background-color: #ef4f4f;
+
+/* Tab Item Component */
+$tab-item-font-size: 12px;
+
+/* Tabbar Component */
+$tabbar-background-color: #fafafa;
+$tabbar-tab-item-selected-background-color: #eaeaea;
+$tabbar-tab-item-selected-color: $color-blue;
+
+/* Navbar Component */
+$navbar-background-color: #fafafa;
+$tabbar-tab-item-selected-background-color: #eaeaea;
+
+/* Checklist Component */
+$checklist-title-color: #888;
+
+/* Radio Component */
+$radio-title-color: #888;
+
+/* z-index */
+$z-index-normal: 1;
