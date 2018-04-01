@@ -5,16 +5,11 @@
         cancel-text="取消"
         placeholder="搜索">
     </mt-search>	
-		<br>
-		<br>
-		<br>
 		<mt-switch v-model="value">
 				开关
 		</mt-switch>
-		<p>{{value}}</p>
 			<!-- indicator	 -->
 		<mt-button type="default" @click.native="showLoading" plain>loading</mt-button>
-			
 	</div>
 	 
 	
@@ -23,7 +18,6 @@
 <script>
 import Vue from 'vue';
 export default {
-	
 	data(){
  		return {
  			value:true,
@@ -58,7 +52,6 @@ export default {
 <style lang="scss" scoped>
 	.banner{
 		width: 100%;
-		height: 3.4rem;
 	}
 	.pop-select{
 		width: 100%;

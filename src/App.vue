@@ -23,11 +23,9 @@
 		  </mt-tab-item>
 		</mt-tabbar>
 	</div>
-		
 </template>
 
 <script>
-
 export default {
 	data () {
 	    return {
@@ -37,7 +35,6 @@ export default {
 	created() {
 
 	}
-
 }
 </script>
 

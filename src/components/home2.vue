@@ -2,7 +2,7 @@
 	<div class="fullDiv">
 		<mt-button @click.native="show = true" size="large">打开 选择框</mt-button>
 		<mt-popup v-model="show" position="bottom" class="pop-select">
-	        <mt-picker @cancel="show = false" @confirm="confirmOperate" :slots="dateSlots" @change="onDateChange" :visible-item-count="5" :show-toolbar="true"></mt-picker>
+	     <mt-picker @cancel="show = false" @confirm="confirmOperate" :slots="dateSlots" @change="onDateChange" :visible-item-count="5" :show-toolbar="true"></mt-picker>
 	    </mt-popup>
 	    <mt-button @click.native="open('picker2')" size="large">点击弹出 Date Picker</mt-button>
 	    <mt-datetime-picker
@@ -26,7 +26,6 @@
 	      @change="changeCheck"
 	      :options="options2">
 	    </mt-checklist>
-	
 	    <div>
 	      <mt-cell title="选中的项">{{ value3 }}</mt-cell>
 	    </div>
@@ -41,8 +40,6 @@
 	   <div id="i_am_hash">
 	    </div>	
 	</div>
-	 
-	
 </template>
 
 <script>
@@ -95,11 +92,6 @@ export default {
  		}
     
 	},
-
-	created() {
-		// console.log(this.$route)
-	},
-
 	mounted() {
 		this.dateSlots = [
 	          {
@@ -142,13 +134,9 @@ export default {
      	console.log(data)
      }
 	}
- 
 }
 </script>
 <style lang="scss" scoped>
-	.fullDiv {
-		height: 30rem;
-	}
 	.banner{
 		width: 100%;
 		height: 3.4rem;

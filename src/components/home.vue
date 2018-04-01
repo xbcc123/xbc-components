@@ -43,18 +43,12 @@ export default {
 		// console.log(this.$refs)
 	},
 	methods: {
-
 		a(e) {
-			// console.log(e)
-		this.$router.replace({ path: '/home2#i_am_hash', 
-		// query: { userId: 123 }
-		})	
-			
+			this.$router.replace({ path: '/home2#i_am_hash', })	
 		},
 		b() {
 			console.log(this.$refs.name.style.background = 'red')
 		},
-
 	  openAlert() {
 	    Vue.$messageBox.alert('操作成功!', '提示');
 	  },
