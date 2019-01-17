@@ -1,4 +1,4 @@
-# 盈点点 基于mint-ui 的 vue 通用组件 
+# 基于mint-ui 的 vue 通用组件 
 
 > test
 
