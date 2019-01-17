@@ -1,7 +1,5 @@
 # 基于mint-ui 的 vue 通用组件 
 
-> test
-
 ## Build Setup
 
 ``` bash
